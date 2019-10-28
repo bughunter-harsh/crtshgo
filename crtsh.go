@@ -19,6 +19,7 @@ func check(e error) {
 	}
 }
 
+// TEST 
 func SliceElementExist(a []string, x string) bool {
 	for _, sub := range a {
 		if x == sub {
